@@ -1,0 +1,80 @@
+block_1 BLOCK_ARCH_1
+{
+.input(din[23:16]),
+.output(dout[23:16])
+}
+block_2 BLOCK_ARCH_2
+{
+.input(din[15:8]),
+.output(dout[15:8])
+}
+block_3 BLOCK_ARCH_3
+{
+.input(din[7:0]),
+.output(dout[7:0])
+}
+block_4 BLOCK_ARCH_4
+{
+.input(din[-1:-8]),
+.output(dout[-1:-8])
+}
+block_5 BLOCK_ARCH_5
+{
+.input(din[-9:-16]),
+.output(dout[-9:-16])
+}
+block_6 BLOCK_ARCH_6
+{
+.input(din[-17:-24]),
+.output(dout[-17:-24])
+}
+block_7 BLOCK_ARCH_7
+{
+.input(din[-25:-32]),
+.output(dout[-25:-32])
+}
+block_8 BLOCK_ARCH_8
+{
+.input(din[-33:-40]),
+.output(dout[-33:-40])
+}
+block_9 BLOCK_ARCH_9
+{
+.input(din[-41:-48]),
+.output(dout[-41:-48])
+}
+block_10 BLOCK_ARCH_10
+{
+.input(din[-49:-56]),
+.output(dout[-49:-56])
+}
+block_11 BLOCK_ARCH_11
+{
+.input(din[-57:-64]),
+.output(dout[-57:-64])
+}
+block_12 BLOCK_ARCH_12
+{
+.input(din[-65:-72]),
+.output(dout[-65:-72])
+}
+block_13 BLOCK_ARCH_13
+{
+.input(din[-73:-80]),
+.output(dout[-73:-80])
+}
+block_14 BLOCK_ARCH_14
+{
+.input(din[-81:-88]),
+.output(dout[-81:-88])
+}
+block_15 BLOCK_ARCH_15
+{
+.input(din[-89:-96]),
+.output(dout[-89:-96])
+}
+block_16 BLOCK_ARCH_16
+{
+.input(din[-97:-104]),
+.output(dout[-97:-104])
+}

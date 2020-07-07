@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Algorithm_competitio.dir/Template_All/Array/Input.cpp.o  -o Algorithm_competitio 

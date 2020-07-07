@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Algorithm_competition.dir/Template_All/Math数学定理/大数阶乘.cpp.o  -o Algorithm_competition 

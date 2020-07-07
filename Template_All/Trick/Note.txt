@@ -1,0 +1,2 @@
+double f[N];
+memset(f,127,sizeof(f));//double无穷大赋值方式

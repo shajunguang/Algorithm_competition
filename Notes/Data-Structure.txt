@@ -1,0 +1,23 @@
+5-6 map<pair<double,double>,int> pair<x-x*,y> value++ pair can be expressed by struct
+struct pixel{
+    double x,y;
+} f[MAXN}; elements of f are pixel. vector<pixel> f;
+ typedef <T>
+ 5-8 map<T,T,Cmp> key must be enable sorted.(Red-Black tree)
+ int,stirng,double,char,pair..
+
+ 5-9 stack (push,pop) set<int>(),map<int>()
+ vector<int> p, p.at(0); //at可以数组越界提示！
+
+ No1：常用数据结构
+ stack：括号匹配，算凸包（计算几何）FILO
+ 并查集：集合合并(O(1)),判断两个元素是否在同一个集合中O(1)
+ 判断图中的联通分量，Kruskal最小生成树（集合合并，判断集合个数）判断是否存在圈，是否在同一个集合中
+ 板子，构造函数初始化
+
+ //dijsktra O(vlog(e))
+ //fluery
+ //SPFA O(k*E)
+ //floyd warshall O(v^3)
+ //A*搜索
+ //树状数组
