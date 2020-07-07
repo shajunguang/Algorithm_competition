@@ -3,4 +3,4 @@ project(Algorithm_competition)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Algorithm_competition Template_All/Math数学定理/大数阶乘.cpp)
+add_executable(Algorithm_competition Leet_code/Ascend_working/LT_004.cpp)

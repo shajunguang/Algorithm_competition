@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Algorithm_competition.dir/Template_All/Math数学定理/大数阶乘.cpp.o"
+  "CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_004.cpp.o"
   "Algorithm_competition.pdb"
   "Algorithm_competition"
 )

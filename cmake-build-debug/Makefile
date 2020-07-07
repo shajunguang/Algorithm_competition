@@ -123,32 +123,32 @@ Algorithm_competition/fast:
 	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/build
 .PHONY : Algorithm_competition/fast
 
-Template_All/Math数学定理/大数阶乘.o: Template_All/Math数学定理/大数阶乘.cpp.o
+Leet_code/Ascend_working/LT_004.o: Leet_code/Ascend_working/LT_004.cpp.o
 
-.PHONY : Template_All/Math数学定理/大数阶乘.o
+.PHONY : Leet_code/Ascend_working/LT_004.o
 
 # target to build an object file
-Template_All/Math数学定理/大数阶乘.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Template_All/Math数学定理/大数阶乘.cpp.o
-.PHONY : Template_All/Math数学定理/大数阶乘.cpp.o
+Leet_code/Ascend_working/LT_004.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_004.cpp.o
+.PHONY : Leet_code/Ascend_working/LT_004.cpp.o
 
-Template_All/Math数学定理/大数阶乘.i: Template_All/Math数学定理/大数阶乘.cpp.i
+Leet_code/Ascend_working/LT_004.i: Leet_code/Ascend_working/LT_004.cpp.i
 
-.PHONY : Template_All/Math数学定理/大数阶乘.i
+.PHONY : Leet_code/Ascend_working/LT_004.i
 
 # target to preprocess a source file
-Template_All/Math数学定理/大数阶乘.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Template_All/Math数学定理/大数阶乘.cpp.i
-.PHONY : Template_All/Math数学定理/大数阶乘.cpp.i
+Leet_code/Ascend_working/LT_004.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_004.cpp.i
+.PHONY : Leet_code/Ascend_working/LT_004.cpp.i
 
-Template_All/Math数学定理/大数阶乘.s: Template_All/Math数学定理/大数阶乘.cpp.s
+Leet_code/Ascend_working/LT_004.s: Leet_code/Ascend_working/LT_004.cpp.s
 
-.PHONY : Template_All/Math数学定理/大数阶乘.s
+.PHONY : Leet_code/Ascend_working/LT_004.s
 
 # target to generate assembly for a file
-Template_All/Math数学定理/大数阶乘.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Template_All/Math数学定理/大数阶乘.cpp.s
-.PHONY : Template_All/Math数学定理/大数阶乘.cpp.s
+Leet_code/Ascend_working/LT_004.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_004.cpp.s
+.PHONY : Leet_code/Ascend_working/LT_004.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Algorithm_competition"
 	@echo "... edit_cache"
-	@echo "... Template_All/Math数学定理/大数阶乘.o"
-	@echo "... Template_All/Math数学定理/大数阶乘.i"
-	@echo "... Template_All/Math数学定理/大数阶乘.s"
+	@echo "... Leet_code/Ascend_working/LT_004.o"
+	@echo "... Leet_code/Ascend_working/LT_004.i"
+	@echo "... Leet_code/Ascend_working/LT_004.s"
 .PHONY : help
 
 
