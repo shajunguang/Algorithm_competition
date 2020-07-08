@@ -17,9 +17,9 @@ public:
         auto ans=t;
         int x=0;
         while(l1||l2 || x){
-            int a=(l1?l1->val:0)+(l2?l2->val:0);
-            auto tmp=new ListNode((a+x)%10);
-            x=(a+x)/10;
+            int x+=(l1?l1->val:0)+(l2?l2->val:0);
+            auto tmp=new ListNode(x%10);
+            x/=10;
             t->next=tmp;
             t=tmp;
             if(l1) l1=l1->next;

@@ -11,18 +11,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be4fff28-aed4-4661-b5e6-1510e4d0020b" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_001.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_002.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_003.cpp" afterDir="false" />
+    <list default="true" id="be4fff28-aed4-4661-b5e6-1510e4d0020b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_005.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_006.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_007.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_008.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_009.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_010.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_code/LT_001.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_002.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_002.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_004.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_code/Ascend_working/LT_004.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm_competition" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm_competition" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm_competition.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm_competition.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -66,18 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_003.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_010.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="922">
+              <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_004.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -120,14 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C++算法面试/函数作为参数c++特性.cpp" />
-        <option value="$PROJECT_DIR$/C++算法面试/第一个大的数.cpp" />
-        <option value="$PROJECT_DIR$/数据结构/字符串/Bin_Karp.cpp" />
-        <option value="$PROJECT_DIR$/Template_All/Sort_Template各类排序/Radix_sort.cpp" />
-        <option value="$PROJECT_DIR$/Template_All/Segment_Tree线段树/Segment_tree.cpp" />
-        <option value="$PROJECT_DIR$/C++算法面试/自增的区别.cpp" />
-        <option value="$PROJECT_DIR$/C++算法面试/代码记录.cpp" />
-        <option value="$PROJECT_DIR$/C++算法面试/扑克牌大小.cpp" />
         <option value="$PROJECT_DIR$/C++算法面试/树的子结构.cpp" />
         <option value="$PROJECT_DIR$/C++算法面试/字符串排列.cpp" />
         <option value="$PROJECT_DIR$/C++算法面试/递归求字符串空字符前的长度.cpp" />
@@ -168,9 +162,17 @@
         <option value="$PROJECT_DIR$/Template_All/Math数学定理/质因子个数.cpp" />
         <option value="$PROJECT_DIR$/Template_All/Math数学定理/大数阶乘.cpp" />
         <option value="$PROJECT_DIR$/Leet_code/LT_001.cpp" />
-        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_002.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_001.cpp" />
         <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_003.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_004.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_005.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_006.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_002.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_008.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_009.cpp" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_007.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Leet_code/Ascend_working/LT_010.cpp" />
       </list>
     </option>
   </component>
@@ -342,7 +344,7 @@
       <workItem from="1593398208283" duration="51756000" />
       <workItem from="1593780365830" duration="9406000" />
       <workItem from="1593929081212" duration="11122000" />
-      <workItem from="1594106148080" duration="10574000" />
+      <workItem from="1594106148080" duration="20163000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1594129310979</created>
@@ -351,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594129310979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1594133399276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594133399276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1399555000" />
+    <option name="totallyTimeSpent" value="1409144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,15 +384,15 @@
       <window_info id="Favorites" order="2" sideWeight="0.5046875" side_tool="true" weight="0.24189115" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986256" visible="true" weight="0.22198506" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49917537" weight="0.047669493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986256" weight="0.21237993" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49917537" visible="true" weight="0.048025616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32944915" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49972513" weight="0.36758474" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49972513" weight="0.36712915" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50137436" side_tool="true" weight="0.26360726" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32977587" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.21186441" />
       <window_info anchor="bottom" id="Database" order="12" sideWeight="0.50082463" side_tool="true" weight="0.3845339" />
       <window_info anchor="bottom" id="CMake" order="13" weight="0.4141949" />
@@ -562,71 +571,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C++算法面试/静态对象.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C++算法面试/拷贝strcpy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C++算法面试/String原型编写.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1595">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/x86_64-linux-gnu/sys/socket.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="121" column="31" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/netdb.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="143" column="23" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/服务器接收带外数据.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/日志.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/客服端发送带外数据.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/x86_64-linux-gnu/sys/poll.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -898,13 +842,6 @@
     <entry file="file://$PROJECT_DIR$/Template_All/Math数学定理/Mod.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_001.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Template_All/Math数学定理/大数阶乘.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -925,10 +862,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_001.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_003.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="654" selection-start-line="654" selection-end-line="654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_004.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_005.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_002.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="383">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_006.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_007.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_008.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_009.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -939,15 +946,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_003.cpp">
+    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_010.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="922">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leet_code/Ascend_working/LT_004.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/liu/c++_study/Algorithm_competition/Template_All/Math数学定理/大数阶乘.cpp
-iostream
--
-string.h
--
-math.h
+/home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_004.cpp
+bits/stdc++.h
 -
 

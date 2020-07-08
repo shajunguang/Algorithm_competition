@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_004.cpp.o"
+  "CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o"
   "Algorithm_competition.pdb"
   "Algorithm_competition"
 )
