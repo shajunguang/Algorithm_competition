@@ -123,32 +123,32 @@ Algorithm_competition/fast:
 	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/build
 .PHONY : Algorithm_competition/fast
 
-Leet_code/Ascend_working/LT_010.o: Leet_code/Ascend_working/LT_010.cpp.o
+Leet_code/Ascend_working/LT_017.o: Leet_code/Ascend_working/LT_017.cpp.o
 
-.PHONY : Leet_code/Ascend_working/LT_010.o
+.PHONY : Leet_code/Ascend_working/LT_017.o
 
 # target to build an object file
-Leet_code/Ascend_working/LT_010.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o
-.PHONY : Leet_code/Ascend_working/LT_010.cpp.o
+Leet_code/Ascend_working/LT_017.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o
+.PHONY : Leet_code/Ascend_working/LT_017.cpp.o
 
-Leet_code/Ascend_working/LT_010.i: Leet_code/Ascend_working/LT_010.cpp.i
+Leet_code/Ascend_working/LT_017.i: Leet_code/Ascend_working/LT_017.cpp.i
 
-.PHONY : Leet_code/Ascend_working/LT_010.i
+.PHONY : Leet_code/Ascend_working/LT_017.i
 
 # target to preprocess a source file
-Leet_code/Ascend_working/LT_010.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.i
-.PHONY : Leet_code/Ascend_working/LT_010.cpp.i
+Leet_code/Ascend_working/LT_017.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.i
+.PHONY : Leet_code/Ascend_working/LT_017.cpp.i
 
-Leet_code/Ascend_working/LT_010.s: Leet_code/Ascend_working/LT_010.cpp.s
+Leet_code/Ascend_working/LT_017.s: Leet_code/Ascend_working/LT_017.cpp.s
 
-.PHONY : Leet_code/Ascend_working/LT_010.s
+.PHONY : Leet_code/Ascend_working/LT_017.s
 
 # target to generate assembly for a file
-Leet_code/Ascend_working/LT_010.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.s
-.PHONY : Leet_code/Ascend_working/LT_010.cpp.s
+Leet_code/Ascend_working/LT_017.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.s
+.PHONY : Leet_code/Ascend_working/LT_017.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Algorithm_competition"
 	@echo "... edit_cache"
-	@echo "... Leet_code/Ascend_working/LT_010.o"
-	@echo "... Leet_code/Ascend_working/LT_010.i"
-	@echo "... Leet_code/Ascend_working/LT_010.s"
+	@echo "... Leet_code/Ascend_working/LT_017.o"
+	@echo "... Leet_code/Ascend_working/LT_017.i"
+	@echo "... Leet_code/Ascend_working/LT_017.s"
 .PHONY : help
 
 

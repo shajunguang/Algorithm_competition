@@ -57,27 +57,27 @@ include CMakeFiles/Algorithm_competition.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm_competition.dir/flags.make
 
-CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o: CMakeFiles/Algorithm_competition.dir/flags.make
-CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o: ../Leet_code/Ascend_working/LT_010.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/c++_study/Algorithm_competition/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o -c /home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_010.cpp
+CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o: CMakeFiles/Algorithm_competition.dir/flags.make
+CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o: ../Leet_code/Ascend_working/LT_017.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/c++_study/Algorithm_competition/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o -c /home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_017.cpp
 
-CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_010.cpp > CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.i
+CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_017.cpp > CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.i
 
-CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_010.cpp -o CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.s
+CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_017.cpp -o CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.s
 
 # Object files for target Algorithm_competition
 Algorithm_competition_OBJECTS = \
-"CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o"
+"CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o"
 
 # External object files for target Algorithm_competition
 Algorithm_competition_EXTERNAL_OBJECTS =
 
-Algorithm_competition: CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_010.cpp.o
+Algorithm_competition: CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o
 Algorithm_competition: CMakeFiles/Algorithm_competition.dir/build.make
 Algorithm_competition: CMakeFiles/Algorithm_competition.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liu/c++_study/Algorithm_competition/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm_competition"
