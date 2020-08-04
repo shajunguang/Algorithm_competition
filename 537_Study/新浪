@@ -1,0 +1,5 @@
+stl vector reserve resize区别
+成员变量初始化顺序，初始化列表能否更改顺序
+四种cast-const_cast,static-cast,dynamic_cast,reinterpret_cast
+i++和++i区别，以及速度
+http报文解析更快？

@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_017.cpp">
+		<Unit filename="/home/liu/c++_study/Algorithm_competition/C++内存管理/简单内存池思想.cpp">
 			<Option target="Algorithm_competition"/>
 		</Unit>
 		<Unit filename="/home/liu/c++_study/Algorithm_competition/CMakeLists.txt">

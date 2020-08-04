@@ -39,6 +39,7 @@ public:
         CONNECT,
         PATH
     };
+    //主状态机的状态
     enum CHECK_STATE
     {
         CHECK_STATE_REQUESTLINE = 0,
@@ -56,6 +57,7 @@ public:
         INTERNAL_ERROR,
         CLOSED_CONNECTION
     };
+    //从状态机状态
     enum LINE_STATUS
     {
         LINE_OK = 0,
@@ -115,12 +117,15 @@ private:
     int m_write_idx;
     CHECK_STATE m_check_state;
     METHOD m_method;
+
     char m_real_file[FILENAME_LEN];
     char *m_url;
     char *m_version;
     char *m_host;
     int m_content_length;
     bool m_linger;
+
+
     char *m_file_address;
     struct stat m_file_stat;
     struct iovec m_iv[2];

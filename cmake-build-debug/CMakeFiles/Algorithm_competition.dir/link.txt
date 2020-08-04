@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o  -o Algorithm_competition 
+/usr/bin/c++  -g   CMakeFiles/Algorithm_competition.dir/C++内存管理/简单内存池思想.cpp.o  -o Algorithm_competition 

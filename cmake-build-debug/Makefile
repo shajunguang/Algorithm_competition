@@ -123,32 +123,32 @@ Algorithm_competition/fast:
 	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/build
 .PHONY : Algorithm_competition/fast
 
-Leet_code/Ascend_working/LT_017.o: Leet_code/Ascend_working/LT_017.cpp.o
+C++内存管理/简单内存池思想.o: C++内存管理/简单内存池思想.cpp.o
 
-.PHONY : Leet_code/Ascend_working/LT_017.o
+.PHONY : C++内存管理/简单内存池思想.o
 
 # target to build an object file
-Leet_code/Ascend_working/LT_017.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o
-.PHONY : Leet_code/Ascend_working/LT_017.cpp.o
+C++内存管理/简单内存池思想.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/C++内存管理/简单内存池思想.cpp.o
+.PHONY : C++内存管理/简单内存池思想.cpp.o
 
-Leet_code/Ascend_working/LT_017.i: Leet_code/Ascend_working/LT_017.cpp.i
+C++内存管理/简单内存池思想.i: C++内存管理/简单内存池思想.cpp.i
 
-.PHONY : Leet_code/Ascend_working/LT_017.i
+.PHONY : C++内存管理/简单内存池思想.i
 
 # target to preprocess a source file
-Leet_code/Ascend_working/LT_017.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.i
-.PHONY : Leet_code/Ascend_working/LT_017.cpp.i
+C++内存管理/简单内存池思想.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/C++内存管理/简单内存池思想.cpp.i
+.PHONY : C++内存管理/简单内存池思想.cpp.i
 
-Leet_code/Ascend_working/LT_017.s: Leet_code/Ascend_working/LT_017.cpp.s
+C++内存管理/简单内存池思想.s: C++内存管理/简单内存池思想.cpp.s
 
-.PHONY : Leet_code/Ascend_working/LT_017.s
+.PHONY : C++内存管理/简单内存池思想.s
 
 # target to generate assembly for a file
-Leet_code/Ascend_working/LT_017.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.s
-.PHONY : Leet_code/Ascend_working/LT_017.cpp.s
+C++内存管理/简单内存池思想.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm_competition.dir/build.make CMakeFiles/Algorithm_competition.dir/C++内存管理/简单内存池思想.cpp.s
+.PHONY : C++内存管理/简单内存池思想.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Algorithm_competition"
 	@echo "... edit_cache"
-	@echo "... Leet_code/Ascend_working/LT_017.o"
-	@echo "... Leet_code/Ascend_working/LT_017.i"
-	@echo "... Leet_code/Ascend_working/LT_017.s"
+	@echo "... C++内存管理/简单内存池思想.o"
+	@echo "... C++内存管理/简单内存池思想.i"
+	@echo "... C++内存管理/简单内存池思想.s"
 .PHONY : help
 
 

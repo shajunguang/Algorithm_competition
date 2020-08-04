@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liu/c++_study/Algorithm_competition/Leet_code/Ascend_working/LT_017.cpp" "/home/liu/c++_study/Algorithm_competition/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/Leet_code/Ascend_working/LT_017.cpp.o"
+  "/home/liu/c++_study/Algorithm_competition/C++内存管理/简单内存池思想.cpp" "/home/liu/c++_study/Algorithm_competition/cmake-build-debug/CMakeFiles/Algorithm_competition.dir/C++内存管理/简单内存池思想.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

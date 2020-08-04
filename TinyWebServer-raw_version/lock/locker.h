@@ -5,7 +5,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 
-class sem
+class sem //信号量类RAII机制来管理
 {
 public:
     sem()
@@ -101,7 +101,7 @@ public:
     }
     bool signal()
     {
-        return pthread_cond_signal(&m_cond) == 0;
+        return pthread_cond_signal(&m_cond) == 0; //等于0是成功返回
     }
     bool broadcast()
     {

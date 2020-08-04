@@ -21,7 +21,7 @@ double Power(double x, int n) {
     double ans=1.0;
     int p=abs(n);
     while(p>0){
-        if(p&1) ans*=x;
+        if(p&1) ans*=x; //这里其实对应n的二进制最低位
         x=x*x;
         p>>=1;
     }

@@ -171,6 +171,9 @@ void http_conn::init()
 
 //从状态机，用于分析出一行内容
 //返回值为行的读取状态，有LINE_OK,LINE_BAD,LINE_OPEN
+
+//m_read_idx指向缓冲区m_read_buf的数据末尾的下一个字节
+//m_checked_idx指向从状态机当前正在分析的字节
 http_conn::LINE_STATUS http_conn::parse_line()
 {
     char temp;
@@ -250,14 +253,19 @@ bool http_conn::read_once()
 //解析http请求行，获得请求方法，目标url及http版本号
 http_conn::HTTP_CODE http_conn::parse_request_line(char *text)
 {
-    m_url = strpbrk(text, " \t");
+    //在HTTP报文中，请求行用来说明请求类型,要访问的资源以及所使用的HTTP版本，
+    // 其中各个部分之间通过\t或空格分隔。
+    //请求行中最先含有空格和\t任一字符的位置并返回
+    m_url = strpbrk(text, " \t"); //返回两个字符串第一次相同字符的指针
     if (!m_url)
     {
         return BAD_REQUEST;
     }
+    //将该位置改为\0，用于将前面数据取出,字符串处理函数以这个结束
     *m_url++ = '\0';
+
     char *method = text;
-    if (strcasecmp(method, "GET") == 0)
+    if (strcasecmp(method, "GET") == 0) //strcasecmp比较两个字符串是否相等，忽略大小写差异
         m_method = GET;
     else if (strcasecmp(method, "POST") == 0)
     {
@@ -266,8 +274,9 @@ http_conn::HTTP_CODE http_conn::parse_request_line(char *text)
     }
     else
         return BAD_REQUEST;
-    m_url += strspn(m_url, " \t");
+    m_url += strspn(m_url, " \t"); //计算前个字符串从开头几个一样的个数
     m_version = strpbrk(m_url, " \t");
+
     if (!m_version)
         return BAD_REQUEST;
     *m_version++ = '\0';
@@ -291,6 +300,7 @@ http_conn::HTTP_CODE http_conn::parse_request_line(char *text)
     //当url为/时，显示判断界面
     if (strlen(m_url) == 1)
         strcat(m_url, "judge.html");
+
     m_check_state = CHECK_STATE_HEADER;
     return NO_REQUEST;
 }
@@ -330,8 +340,8 @@ http_conn::HTTP_CODE http_conn::parse_headers(char *text)
     }
     else
     {
-        //printf("oop!unknow header: %s\n",text);
-        LOG_INFO("oop!unknow header: %s", text);
+        //printf("oop!unknown header: %s\n",text);
+        LOG_INFO("oop!unknown header: %s", text);
         Log::get_instance()->flush();
     }
     return NO_REQUEST;

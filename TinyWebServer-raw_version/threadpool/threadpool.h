@@ -19,7 +19,7 @@ public:
 
 private:
     /*工作线程运行的函数，它不断从工作队列中取出任务并执行之*/
-    static void *worker(void *arg);
+    static void *worker(void *arg); //pthread_create第三个参数，函数指针，参数是void*因此设置为静态，无this
     void run();
 
 private:
@@ -62,9 +62,9 @@ threadpool<T>::~threadpool()
     m_stop = true;
 }
 template <typename T>
-bool threadpool<T>::append(T *request)
+bool threadpool<T>::append(T *request) //添加请求
 {
-    m_queuelocker.lock();
+    m_queuelocker.lock(); //保证线程安全，不会出现两个线程同时添加请求
     if (m_workqueue.size() > m_max_requests)
     {
         m_queuelocker.unlock();
@@ -72,12 +72,13 @@ bool threadpool<T>::append(T *request)
     }
     m_workqueue.push_back(request);
     m_queuelocker.unlock();
-    m_queuestat.post();
+    m_queuestat.post(); //新的请求添加，post给信号量
     return true;
 }
 template <typename T>
 void *threadpool<T>::worker(void *arg)
 {
+    //将参数强转为线程池类，调用成员函数
     threadpool *pool = (threadpool *)arg;
     pool->run();
     return pool;
@@ -85,24 +86,37 @@ void *threadpool<T>::worker(void *arg)
 template <typename T>
 void threadpool<T>::run()
 {
-    while (!m_stop)
+    while (!m_stop) //线程未结束
     {
-        m_queuestat.wait();
+        m_queuestat.wait(); //信号量等待，查询是否有请求
+        //唤醒后先加互斥锁
         m_queuelocker.lock();
         if (m_workqueue.empty())
         {
-            m_queuelocker.unlock();
+            m_queuelocker.unlock(); //队列为空就没了
             continue;
         }
+        //从请求队列中取出第一个任务
+        //将任务从请求队列删除
         T *request = m_workqueue.front();
         m_workqueue.pop_front();
         m_queuelocker.unlock();
-        if (!request)
+        if (!request) //请求没有
             continue;
 
-        connectionRAII mysqlcon(&request->mysql, m_connPool);
+        connectionRAII mysqlcon(&request->mysql, m_connPool); //连接池连接数据库
         
         request->process();
+        /*
+        //从连接池中取出一个数据库连接
+        request->mysql = m_connPool->GetConnection();
+
+        //process(模板类中的方法,这里是http类)进行处理
+        request->process();
+
+        //将数据库连接放回连接池
+       m_connPool->ReleaseConnection(request->mysql);
+         */
     }
 }
 #endif
